@@ -16,6 +16,4 @@ UML class diagrams:
 Python classes:
 
 - Class 1:
-![Class 1 -1](https://user-images.githubusercontent.com/126562962/222411712-96907786-6d51-4eeb-9125-ee8a123bd380.png)
-
-
+![image](https://user-images.githubusercontent.com/126562962/222412137-f19c351b-024f-4b97-8819-04c8d8ec3f18.png)
