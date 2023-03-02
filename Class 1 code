@@ -1,0 +1,50 @@
+    def __init__(self, firstName, lastName, DOB, Gender, emiratesID, email, nationality, phoneNumber):
+        self.firstName = firstName 
+        self.lastName = lastName 
+        self.DOB = DOB
+        self.Gender = Gender 
+        self.emiratesID = emiratesID
+        self.email = email
+        self.nationality = nationality 
+        self.phoneNumber = phoneNumber
+
+    def setfirstName(self,firstName):
+        self.firstName = firstName
+    def getfirstName(self):
+        return self.firstName   
+    def setlastName(self,lasttName):
+        self.lastName = lasttName
+    def getLastName(self):
+        return self.lastName 
+    def setDOB(self,DOB):
+        self.DOB = DOB
+    def getDOB(self):
+        return self.DOB
+    def setGender(self,Gender):
+        self.Gender = Gender
+    def getGender(self):
+        return self.Gender
+    def setEmiratesID(self,emiratesID):
+        self.emiratesID= emiratesID
+    def getEmiratesID(self):
+        return self.emiratesID
+    def setemail(self,email):
+        self.email = email
+    def getemail(self):
+        return self.email
+    def setnationality(self,nationality):
+        self.nationality = nationality
+    def getnationality(self):
+        return self.nationality
+    def setphoneNumber(self,phoneNumber):
+        self.phoneNumber = phoneNumber
+    def getphoneNumber(self):
+        return self.phoneNumber
+        
+    def __str__(self):
+        return "First Name: "+self.firstName+", Last Name: "+self.lastName+ ", DOB: "+self.DOB+ ", Gender: "+self.Gender+ ", Emirates ID: "+self.emiratesID +", Email:"+self.email+ ", Nationality:"+self.nationality + ", Phone Number:"+self.phoneNumber
+        
+object1 = customer("Latifa","Alqaydi","23/2/2004","Female","12321","202102974@zu.ac.ae","UAE","0558850188")
+print(object1)
+object2 =  customer("Noura","Alqaydi","15/5/2003","Female","12345","202006545@zu.ac.ae","UAE","12345667")
+print(object2)
