@@ -14,3 +14,8 @@ UML class diagrams:
 <img width="805" alt="Screen Shot 2023-03-02 at 1 34 38 PM" src="https://user-images.githubusercontent.com/126562962/222389720-1e7f3436-90a7-438d-bbc8-a594daca7469.png">
 
 Python classes:
+
+- Class 1:
+![Class 1 -1](https://user-images.githubusercontent.com/126562962/222411712-96907786-6d51-4eeb-9125-ee8a123bd380.png)
+
+
