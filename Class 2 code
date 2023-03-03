@@ -1,0 +1,63 @@
+from enum import Enum
+class vehicleBrand(Enum):
+    Toyota =1 
+    Nissan = 2
+    mercedes = 3  
+    
+class vehicleType(Enum):
+    Sedan = 1
+    Pickup = 2
+    FourWheel = 3
+
+class vehicleColor(Enum):
+    White = 1
+    Balck = 2
+    Silver = 3
+    
+class model(Enum):
+    Camry = 1
+    Patrol = 2 
+    Maxima = 3
+    
+class condition(Enum):
+    Used = 1
+    New = 2
+    
+class car:
+    def __init__(self, vehicleBrand, vehicleType, vehicleColor, model,condition):
+        self.vehicleBrand = vehicleBrand
+        self.vehicleType = vehicleType
+        self.vehicleColor = vehicleColor
+        self.model = model
+        self.condition = condition
+
+    def set_vehicleBrand(self,vehicleBrand):
+        self.vehicleBrand = vehicleBrand
+    def get_vehicleBrand(self):
+        return self.vehicleBrand   
+    def set_vehicleType(self,vehicleType):
+        self.vehicleType = vehicleType
+    def get_vehicleType(self):
+        return self.vehicleType
+    def set_vehicleColor(self,vehicleColor):
+        self.vehicleColor = vehicleColor
+    def get_vehicleColor(self):
+        return self.vehicleColor
+    def set_model(self,model):
+        self.model = model
+    def get_model(self):
+        return self.model
+    def set_condition(self,condition):
+        self.condition= condition
+    def get_condition(self):
+        return self.condition
+    
+        
+    def __str__(self):
+        return ("Vehicle Brand: "+self.vehicleBrand+", Vehicle Type: "+self.vehicleType+ 
+            ", Vehicle Color: "+self.vehicleColor+ ", model: "+self.model+ ", condition: "+self.condition)
+        
+object1 = car("Toyota","Sedan","Silver","Camry" ,"Used")
+print(object1)
+object2 =  car("Nissan","4x4","White","Patrol","New")
+print(object2)
