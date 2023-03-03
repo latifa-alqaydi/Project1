@@ -11,8 +11,11 @@ UML class diagrams:
 
 <img width="1408" alt="Screen Shot 2023-03-03 at 2 37 17 PM" src="https://user-images.githubusercontent.com/126562962/222699358-2162eeaa-20df-4d84-b8a0-13968e429ed5.png">
 <img width="1398" alt="Screen Shot 2023-03-03 at 2 37 25 PM" src="https://user-images.githubusercontent.com/126562962/222699461-0a26759e-9fe5-4aa4-a7dd-81640a112685.png">
-<img width="1405" alt="Screen Shot 2023-03-03 at 2 37 44 PM" src="https://user-images.githubusercontent.com/126562962/222699491-930c3dc8-7829-4947-93a0-7f69714e46e3.png">
-<img width="1403" alt="Screen Shot 2023-03-03 at 2 37 54 PM" src="https://user-images.githubusercontent.com/126562962/222699512-55623021-1465-4eb2-a4c6-c7794ed24bfd.png">
+<img width="1347" alt="Screen Shot 2023-03-03 at 5 09 30 PM" src="https://user-images.githubusercontent.com/126562962/222728467-a04fd2e2-c413-4759-a0b0-03e5b8c1f63d.png">
+<img width="1300" alt="Screen Shot 2023-03-03 at 5 09 37 PM" src="https://user-images.githubusercontent.com/126562962/222728485-1dc45afd-e83f-4f10-b02e-a2362daf69da.png">
+
+
+
 
 Python classes:
 
@@ -22,3 +25,6 @@ Python classes:
 ![Class 2-1](https://user-images.githubusercontent.com/126562962/222707675-a8e85d64-0249-4ce7-815f-387d032d9577.png)
 - class 3:
 ![class 3-1](https://user-images.githubusercontent.com/126562962/222712181-0c0b3f54-a5b4-4141-95bd-955d2c309c8f.png)
+- Class 4: 
+![Class 4 -1](https://user-images.githubusercontent.com/126562962/222718680-72f70f3f-c619-4da4-93b7-c13453ca8dca.png)
+
