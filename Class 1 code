@@ -1,8 +1,18 @@
-    def __init__(self, firstName, lastName, DOB, Gender, emiratesID, email, nationality, phoneNumber):
+from enum import Enum
+class Gender(Enum):
+    Female =1 
+    Male = 2
+class Nationality(Enum):
+    UAE = 1
+    Oman = 2
+    KSA = 3
+    
+class customer:
+    def __init__(self, firstName, lastName, DOB, gender, emiratesID, email, nationality, phoneNumber):
         self.firstName = firstName 
         self.lastName = lastName 
         self.DOB = DOB
-        self.Gender = Gender 
+        self.gender = gender 
         self.emiratesID = emiratesID
         self.email = email
         self.nationality = nationality 
@@ -14,16 +24,16 @@
         return self.firstName   
     def setlastName(self,lasttName):
         self.lastName = lasttName
-    def getLastName(self):
+    def getlastName(self):
         return self.lastName 
     def setDOB(self,DOB):
         self.DOB = DOB
     def getDOB(self):
         return self.DOB
-    def setGender(self,Gender):
-        self.Gender = Gender
+    def setGender(self,gender):
+        self.gender = gender
     def getGender(self):
-        return self.Gender
+        return self.gender
     def setEmiratesID(self,emiratesID):
         self.emiratesID= emiratesID
     def getEmiratesID(self):
@@ -42,7 +52,9 @@
         return self.phoneNumber
         
     def __str__(self):
-        return "First Name: "+self.firstName+", Last Name: "+self.lastName+ ", DOB: "+self.DOB+ ", Gender: "+self.Gender+ ", Emirates ID: "+self.emiratesID +", Email:"+self.email+ ", Nationality:"+self.nationality + ", Phone Number:"+self.phoneNumber
+        return ("First Name: "+self.firstName+", Last Name: "+self.lastName+ ", DOB: "+self.DOB+ 
+            ", Gender: "+self.gender+ ", Emirates ID: "+self.emiratesID +", Email:"+self.email+ 
+            ", Nationality:"+self.nationality + ", Phone Number:"+self.phoneNumber)
         
 object1 = customer("Latifa","Alqaydi","23/2/2004","Female","12321","202102974@zu.ac.ae","UAE","0558850188")
 print(object1)
