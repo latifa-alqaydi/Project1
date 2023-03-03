@@ -1,0 +1,39 @@
+class mechanic:
+    def __init__(self, firstName, lastName, salary, phoneNumber,YearsOfExperience):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salary = salary
+        self.phoneNumber = phoneNumber
+        self.YearsOfExperience = YearsOfExperience
+
+    def setfirstName(self,firstName):
+        self.firstName = firstName
+    def getfirstName(self):
+        return self.firstName   
+    def setlastName(self,lasttName):
+        self.lastName = lasttName
+    def getlastName(self):
+        return self.lastName
+    def setsalary(self,salary):
+        self.salary = salary
+    def getsalary(self):
+        return self.salary
+    def setphoneNumber(self,phoneNumber):
+        self.phoneNumber = phoneNumber
+    def getphoneNumber(self):
+        return self.phoneNumber
+    def setYearsOfExperience(self,YearsOfExperience):
+        self.YearsOfExperience= YearsOfExperience
+    def getYearsOfExperience(self):
+        return self.YearsOfExperience
+    
+        
+    def __str__(self):
+        return ("First Name: "+self.firstName+", Last Name: "+self.lastName+ 
+                ", Salary: "+self.salary+ ", Phone Number: "+self.phoneNumber+ 
+                ", Years Of Experience: "+self.YearsOfExperience)
+        
+object1 = mechanic("Abdulla","Musa","3000","0505676789" ,"2")
+print(object1)
+object2 =  mechanic("Hakeem","Mohammed","4000","055123456”7","3")
+print(object2)
