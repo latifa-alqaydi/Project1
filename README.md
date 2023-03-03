@@ -9,11 +9,16 @@ Use-case descriptions:
 <img width="776" alt="Screen Shot 2023-03-02 at 1 32 52 PM" src="https://user-images.githubusercontent.com/126562962/222389643-97c77cb2-5065-4096-bb8e-a66b3a922ede.png">
 UML class diagrams:
 
-<img width="816" alt="Screen Shot 2023-03-02 at 1 33 04 PM" src="https://user-images.githubusercontent.com/126562962/222389653-e49a3749-b610-4482-b7e1-145b9b8f39e1.png">
-<img width="797" alt="Screen Shot 2023-03-02 at 1 33 11 PM" src="https://user-images.githubusercontent.com/126562962/222389666-1d615557-deed-49e2-95c9-d5f5d22f6364.png"><img width="805" alt="Screen Shot 2023-03-02 at 1 34 32 PM" src="https://user-images.githubusercontent.com/126562962/222389697-11401183-9509-45a8-a918-bdfafb5fceb1.png">
-<img width="805" alt="Screen Shot 2023-03-02 at 1 34 38 PM" src="https://user-images.githubusercontent.com/126562962/222389720-1e7f3436-90a7-438d-bbc8-a594daca7469.png">
+<img width="1408" alt="Screen Shot 2023-03-03 at 2 37 17 PM" src="https://user-images.githubusercontent.com/126562962/222699358-2162eeaa-20df-4d84-b8a0-13968e429ed5.png">
+<img width="1398" alt="Screen Shot 2023-03-03 at 2 37 25 PM" src="https://user-images.githubusercontent.com/126562962/222699461-0a26759e-9fe5-4aa4-a7dd-81640a112685.png">
+<img width="1405" alt="Screen Shot 2023-03-03 at 2 37 44 PM" src="https://user-images.githubusercontent.com/126562962/222699491-930c3dc8-7829-4947-93a0-7f69714e46e3.png">
+<img width="1403" alt="Screen Shot 2023-03-03 at 2 37 54 PM" src="https://user-images.githubusercontent.com/126562962/222699512-55623021-1465-4eb2-a4c6-c7794ed24bfd.png">
 
 Python classes:
 
 - Class 1:
-![image](https://user-images.githubusercontent.com/126562962/222412137-f19c351b-024f-4b97-8819-04c8d8ec3f18.png)
+![Class 1 -1](https://user-images.githubusercontent.com/126562962/222707766-75ca17f7-65aa-46d7-8033-bccd69841781.png)
+- Class 2:
+![Class 2-1](https://user-images.githubusercontent.com/126562962/222707675-a8e85d64-0249-4ce7-815f-387d032d9577.png)
+- class 3:
+![class 3-1](https://user-images.githubusercontent.com/126562962/222712181-0c0b3f54-a5b4-4141-95bd-955d2c309c8f.png)
