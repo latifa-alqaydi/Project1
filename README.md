@@ -19,12 +19,5 @@ UML class diagrams:
 
 Python classes:
 
-- Class 1:
-![Class 1 -1](https://user-images.githubusercontent.com/126562962/222707766-75ca17f7-65aa-46d7-8033-bccd69841781.png)
-- Class 2:
-![Class 2-1](https://user-images.githubusercontent.com/126562962/222707675-a8e85d64-0249-4ce7-815f-387d032d9577.png)
-- class 3:
-![class 3-1](https://user-images.githubusercontent.com/126562962/222712181-0c0b3f54-a5b4-4141-95bd-955d2c309c8f.png)
-- Class 4: 
-![Class 4 -1](https://user-images.githubusercontent.com/126562962/222718680-72f70f3f-c619-4da4-93b7-c13453ca8dca.png)
+[Codes .pdf](https://github.com/latifa-alqaydi/project1/files/10882456/Codes.pdf)
 
