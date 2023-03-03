@@ -1,5 +1,5 @@
 from enum import Enum
-class quality(Enum):
+class Quality(Enum):
     Excellent =1 
     good = 2
     medium = 3  
@@ -8,17 +8,17 @@ class Type(Enum):
     MinorService = 1
     majorService = 2
 
-class guaranty(Enum):
+class Guaranty(Enum):
     yes = 1
     no = 2
 
 class Service:
-    def __init__(self, Title, timeFactor, charges, quality, Type,guaranty):
+    def __init__(self, Title, timeFactor, charges, quality, Service_type,guaranty):
         self.Title = Title
         self.timeFactor = timeFactor
         self.charges = charges
         self.quality = quality
-        self.Type = Type
+        self.Service_type = Service_type
         self.guaranty = guaranty
 
     def set_Title(self,Title):
@@ -37,10 +37,10 @@ class Service:
         self.quality = quality
     def get_quality(self):
         return self.quality
-    def set_Type(self,model):
-        self.Type = Type
-    def get_Type(self):
-        return self.Type
+    def set_Service_type(self,Service_type):
+        self.Service_type = Service_type
+    def get_Service_type(self):
+        return self.Service_type
     def set_guaranty(self,guaranty):
         self.guaranty= guaranty
     def get_guaranty(self):
@@ -49,7 +49,7 @@ class Service:
         
     def __str__(self):
         return ("Title:"+self.Title+", Time Factor: "+self.timeFactor+", Charges: "+self.charges+ 
-            ", Quality: "+self.quality+ ", Type: "+self.Type+ ", Guaranty: "+self.guaranty)
+            ", Quality: "+self.quality+ ", Service type: "+self.Service_type+ ", Guaranty: "+self.guaranty)
         
 object1 = Service("Oil replacment","00:15:00","230","Good","Minor Service" ,"yes")
 print(object1)
