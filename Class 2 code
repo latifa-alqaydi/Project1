@@ -1,25 +1,25 @@
 from enum import Enum
-class vehicleBrand(Enum):
+class VehicleBrand(Enum):
     Toyota =1 
     Nissan = 2
     mercedes = 3  
     
-class vehicleType(Enum):
+class VehicleType(Enum):
     Sedan = 1
     Pickup = 2
     FourWheel = 3
 
-class vehicleColor(Enum):
+class VehicleColor(Enum):
     White = 1
     Balck = 2
     Silver = 3
     
-class model(Enum):
+class Model(Enum):
     Camry = 1
     Patrol = 2 
     Maxima = 3
     
-class condition(Enum):
+class Condition(Enum):
     Used = 1
     New = 2
     
